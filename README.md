@@ -33,8 +33,8 @@ The goal of this project is to demonstrate a basic job portal interface with rol
 job-portal/
 │
 ├── index.html
-└── admin.html
-└── dashboard.html
+├── admin.html
+├──dashboard.html
 ├── style.css
 ├── script.js
 └── README.md
@@ -45,10 +45,6 @@ job-portal/
 ## How to Run the Project
 
 1. Download or clone the repository.
-
-```id="o9rv98"
-git clone https://github.com/yourusername/job-portal.git
-```
 
 2. Open the project folder.
 
