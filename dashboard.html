@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+    <h2 id="welcome"></h2>
+    <button onclick="logout()">Logout</button>
+</div>
+
+<div class="container">
+  
+    <div id="recruiterSection" class="card hidden">
+        <h3>Post a Job</h3>
+        <input type="text" id="jobTitle" placeholder="Job Title">
+        <input type="text" id="jobDesc" placeholder="Job Description">
+        <button onclick="postJob()">Submit for Approval</button>
+    </div>
+
+    <div id="applicantSection" class="card hidden">
+        <h3>Upload Resume</h3>
+        <input type="file" id="resumeUpload">
+        <button onclick="saveResume()">Save Resume</button>
+    </div>
+
+    <h3>Available Jobs</h3>
+    <div id="jobList" class="job-grid"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#4f46e5,#9333ea);
+    color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.glass {
+    background: rgba(255,255,255,0.15);
+    padding: 40px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    width: 460px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: rgba(0,0,0,0.3);
+}
+
+.container {
+    padding: 30px;
+}
+
+.card {
+    background: rgba(255,255,255,0.2);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #22d3ee;
+    cursor: pointer;
+    color: black;
+}
+
+button:hover {
+    background: #06b6d4;
+}
+
+.hidden {
+    display: none;
+}
+
+.job-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+}
+
+.job-card {
+    background: rgba(255,255,255,0.2);
+    padding: 15px;
+    border-radius: 10px;
+}
